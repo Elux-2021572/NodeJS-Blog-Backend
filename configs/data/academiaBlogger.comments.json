@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "68215b3855adb437bd68f64a"
+  },
+  "post": {
+    "$oid": "68215ac855adb437bd68f646"
+  },
+  "username": "emiliolux",
+  "comment": "Excelente contenido!",
+  "dataComment": {
+    "$date": "2025-05-12T02:21:44.132Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:21:44.134Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:21:44.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215c91ff87b84cde2de9eb"
+  },
+  "post": {
+    "$oid": "68215c71ff87b84cde2de9e8"
+  },
+  "username": "devUser1",
+  "comment": "Excelente introducción, muy clara!",
+  "dataComment": {
+    "$date": "2025-05-12T02:27:29.643Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:27:29.645Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:27:29.645Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215c9eff87b84cde2de9ee"
+  },
+  "post": {
+    "$oid": "68215c71ff87b84cde2de9e8"
+  },
+  "username": "codeNewbie",
+  "comment": "Alguien tiene recursos adicionales para practicar?",
+  "dataComment": {
+    "$date": "2025-05-12T02:27:42.681Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:27:42.682Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:27:42.682Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215cdfff87b84cde2de9f3"
+  },
+  "post": {
+    "$oid": "68215cc1ff87b84cde2de9f0"
+  },
+  "username": "frontendMaster",
+  "comment": "Falta mencionar el hook useMemo para optimización",
+  "dataComment": {
+    "$date": "2025-05-12T02:28:47.035Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:28:47.036Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:28:47.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215ce4ff87b84cde2de9f6"
+  },
+  "post": {
+    "$oid": "68215cc1ff87b84cde2de9f0"
+  },
+  "username": "reactFan",
+  "comment": "Muy buen ejemplo de Context API!",
+  "dataComment": {
+    "$date": "2025-05-12T02:28:52.978Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:28:52.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:28:52.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215cfaff87b84cde2de9fb"
+  },
+  "post": {
+    "$oid": "68215cf0ff87b84cde2de9f8"
+  },
+  "username": "woodWorker",
+  "comment": "Qué tipo de madera recomiendan para empezar?",
+  "dataComment": {
+    "$date": "2025-05-12T02:29:14.206Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:14.206Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:14.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215cfdff87b84cde2de9fe"
+  },
+  "post": {
+    "$oid": "68215cf0ff87b84cde2de9f8"
+  },
+  "username": "diyLover",
+  "comment": "El proyecto de la mesa quedó genial!",
+  "dataComment": {
+    "$date": "2025-05-12T02:29:17.951Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:17.952Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:17.952Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d14ff87b84cde2dea03"
+  },
+  "post": {
+    "$oid": "68215d0bff87b84cde2dea00"
+  },
+  "username": "medStudent1",
+  "comment": "Cómo manejaste el caso del paciente difícil?",
+  "dataComment": {
+    "$date": "2025-05-12T02:29:40.464Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:40.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:40.464Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d1aff87b84cde2dea06"
+  },
+  "post": {
+    "$oid": "68215d0bff87b84cde2dea00"
+  },
+  "username": "nursePro",
+  "comment": "Excelente actitud con los niños!",
+  "dataComment": {
+    "$date": "2025-05-12T02:29:46.073Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:46.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:46.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d2dff87b84cde2dea0b"
+  },
+  "post": {
+    "$oid": "68215d24ff87b84cde2dea08"
+  },
+  "username": "lawIntern",
+  "comment": "Algún tip para redactar cláusulas más claras?",
+  "dataComment": {
+    "$date": "2025-05-12T02:30:05.373Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:30:05.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:30:05.374Z"
+  }
+}]

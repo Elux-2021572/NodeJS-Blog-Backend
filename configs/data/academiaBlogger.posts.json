@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "68215ac855adb437bd68f646"
+  },
+  "title": "Mi proyecto final",
+  "description": "Descripción detallada de mi proyecto...",
+  "course": "Technology",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:19:52.353Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:19:52.354Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:19:52.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215b7d55adb437bd68f64e"
+  },
+  "title": "Aprendiendo MongoDB",
+  "description": "Mis experiencias aprendiendo bases de datos",
+  "course": "Technology",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:22:53.733Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:22:53.734Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:22:53.734Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215c71ff87b84cde2de9e8"
+  },
+  "title": "Introducción a Node.js",
+  "description": "Fundamentos básicos de Node.js y su ecosistema",
+  "course": "Technology",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:26:57.137Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:26:57.147Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:26:57.147Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215cc1ff87b84cde2de9f0"
+  },
+  "title": "React Hooks Avanzados",
+  "description": "Uso de useReducer y useContext en aplicaciones complejas",
+  "course": "Technology",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:28:17.688Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:28:17.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:28:17.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215cf0ff87b84cde2de9f8"
+  },
+  "title": "Taller de Carpintería Básica",
+  "description": "Aprende a hacer tus primeros muebles con herramientas manuales",
+  "course": "Workshop",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:29:04.557Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:04.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:04.557Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d0bff87b84cde2dea00"
+  },
+  "title": "Mi Práctica en Hospital Regional",
+  "description": "Experiencias durante mi rotación en el área de pediatría",
+  "course": "Supervised Practice",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:29:31.752Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:31.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:31.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68215d24ff87b84cde2dea08"
+  },
+  "title": "Prácticas en Estudio Jurídico",
+  "description": "Aprendizaje sobre redacción de contratos civiles",
+  "course": "Supervised Practice",
+  "status": true,
+  "date": {
+    "$date": "2025-05-12T02:29:56.145Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T02:29:56.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T02:29:56.145Z"
+  }
+}]
