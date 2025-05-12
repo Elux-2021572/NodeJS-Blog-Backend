@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "6a4b6a85-d948-4ca4-b9f0-67df878d02a2",
+		"name": "Academy Blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37780367"
+	},
+	"item": [
+		{
+			"name": "Crear Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Aprendiendo MongoDB\",\r\n  \"description\": \"Mis experiencias aprendiendo bases de datos\",\r\n  \"course\": \"Technology\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/posts/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"posts",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Todos los Posts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/posts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Post",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Título actualizado\",\r\n  \"description\": \"Nueva descripción\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/posts/update/68215a0c55adb437bd68f641",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"posts",
+						"update",
+						"68215a0c55adb437bd68f641"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/posts/delete/68215a0c55adb437bd68f641",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"posts",
+						"delete",
+						"68215a0c55adb437bd68f641"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Posts por Curso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/posts/course/Technology",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"posts",
+						"course",
+						"Technology"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Comentario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"emiliolux\",\r\n  \"comment\": \"Excelente contenido!\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/comments/68215ac855adb437bd68f646/addcomment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"comments",
+						"68215ac855adb437bd68f646",
+						"addcomment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Comentarios de un Post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/academyBlog/v1/comments/68215ac855adb437bd68f646/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"academyBlog",
+						"v1",
+						"comments",
+						"68215ac855adb437bd68f646",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
