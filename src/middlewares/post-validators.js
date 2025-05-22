@@ -35,3 +35,11 @@ export const updatePostValidator = [
     validateField,
     handleErrors
 ];
+
+export const getPostByIdValidator = [
+  param('postId')
+    .notEmpty().withMessage('Post ID is required')
+    .isMongoId().withMessage('Invalid Post ID format'),
+  validateField,
+  handleErrors
+];
